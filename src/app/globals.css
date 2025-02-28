@@ -18,4 +18,20 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  padding-top: 65px; /* Adjust based on navbar height */
+}
+html.dark {
+  background-color: #121212;
+  color: white;
+}
+/* Light Mode */
+body.light-mode {
+  background-color: #f7fafc; /* equivalent to bg-gray-100 */
+  color: #1a202c; /* equivalent to text-gray-900 */
+}
+
+/* Dark Mode */
+.dark body {
+  background-color: #1a202c; /* equivalent to bg-gray-900 */
+  color: #ffffff; /* equivalent to text-white */
 }

@@ -1,7 +1,12 @@
-import type { NextConfig } from "next";
+// next.config.js
+module.exports = {
+  images: {
+    domains: ["i.imgflip.com", "i.ibb.co"], // Add the hostnames here
 
-const nextConfig: NextConfig = {
-  /* config options here */
+  },
+  reactStrictMode: true,
+  pageExtensions: ["tsx", "ts"],
 };
 
-export default nextConfig;
+
+
