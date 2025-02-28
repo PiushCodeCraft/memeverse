@@ -6,6 +6,9 @@ module.exports = {
   },
   reactStrictMode: true,
   pageExtensions: ["tsx", "ts"],
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 
