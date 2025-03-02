@@ -124,7 +124,7 @@ const ProfilePage = () => {
             />
           ))
         ) : (
-          <p>No memes uploaded yet.</p>
+          <p>No memes uploaded yet</p>
         )}
       </div>
 
